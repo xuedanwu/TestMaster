@@ -91,7 +91,7 @@ TODO: Add long description of the pod here.
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files = 'TestMaster/Classes/**/*'
+  spec.source_files = 'TestMaster/Classes/**/*'
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
