@@ -18,5 +18,5 @@
     "git": "https://github.com/xuedanwu/TestMaster.git",
     "tag": "0.0.1"
   },
-  "source_files": "TestMaster/Classes/**/*"
+  "source_files": "TestMaster/TestLib/TestMaster/**/*"
 }
