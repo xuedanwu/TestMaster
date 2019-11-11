@@ -39,8 +39,8 @@ TODO: Add long description of the pod here.
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  # spec.license      = "MIT"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
+  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -65,10 +65,10 @@ TODO: Add long description of the pod here.
   #
 
   # spec.platform     = :ios
-   spec.platform     = :ios, "9.0"
+  # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+   spec.ios.deployment_target = "9.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -80,7 +80,7 @@ TODO: Add long description of the pod here.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/xuedanwu/TestMaster.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/xuedanwu/TestMaster.git", :tag => "#{spec.version.to_s }" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,10 +91,8 @@ TODO: Add long description of the pod here.
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.source_files  = "Classes", "Classes/**/*"
+  spec.source_files  = "TestMaster", "Classes/**/*"
   # spec.exclude_files = "Classes/Exclude"
-
-spec.source_files = 'TestMaster/TestLib/TestMaster/Classes/**/*'
 
   # spec.public_header_files = "Classes/**/*.h"
 
