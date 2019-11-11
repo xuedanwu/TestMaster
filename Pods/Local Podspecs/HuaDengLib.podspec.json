@@ -1,0 +1,65 @@
+{
+  "name": "HuaDengLib",
+  "version": "1.0.3",
+  "summary": "花灯第三方依赖",
+  "requires_arc": true,
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xuedanwu/HuaDengLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xuedanwu": "15618025967@163.com"
+  },
+  "source": {
+    "git": "https://github.com/xuedanwu/HuaDengLib.git",
+    "tag": "1.0.3"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "AppStore",
+      "source_files": [
+        "HuaDengLib/Classes/AppStore/ChineseConvert"
+      ],
+      "dependencies": {
+        "HuaDengLib/Base": [
+
+        ]
+      }
+    },
+    {
+      "name": "Enterprise",
+      "source_files": "HuaDengLib/Classes/Enterprise/*",
+      "resources": [
+        "HuaDengLib/Classes/Enterprise/Resource/Enterprise/Pay/*.{png}"
+      ]
+    },
+    {
+      "name": "Base",
+      "frameworks": [
+        "UIKit",
+        "Foundation",
+        "Security",
+        "CoreGraphics",
+        "CoreTelephony",
+        "SystemConfiguration",
+        "VideoToolbox",
+        "GLKit"
+      ],
+      "libraries": [
+        "icucore",
+        "c++",
+        "sqlite3",
+        "z",
+        "iconv"
+      ],
+      "source_files": [
+        "HuaDengLib/Classes/AppStore/ChineseConvert/*.txt"
+      ]
+    }
+  ]
+}
