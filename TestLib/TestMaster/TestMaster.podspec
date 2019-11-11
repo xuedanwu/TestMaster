@@ -80,7 +80,7 @@ TODO: Add long description of the pod here.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/xuedanwu/TestMaster.git", :tag => spec.version.to_spec }
+  spec.source       = { :git => "https://github.com/xuedanwu/TestMaster.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
