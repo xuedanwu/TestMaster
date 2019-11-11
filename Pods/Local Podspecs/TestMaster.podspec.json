@@ -1,0 +1,22 @@
+{
+  "name": "TestMaster",
+  "version": "0.0.1",
+  "summary": "A short description of TestMaster.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xuedanwu/TestMaster",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xuedanwu": "15618025967@163.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/xuedanwu/TestMaster.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "TestMaster/Classes/**/*"
+}

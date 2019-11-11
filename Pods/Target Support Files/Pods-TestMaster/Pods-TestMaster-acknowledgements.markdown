@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## HuaDengLib
+## TestMaster
 
 Copyright (c) 2019 xuedanwu <15618025967@163.com>
 
