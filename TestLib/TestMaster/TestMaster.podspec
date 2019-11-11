@@ -94,7 +94,7 @@ TODO: Add long description of the pod here.
   # spec.source_files  = "Classes", "Classes/**/*"
   # spec.exclude_files = "Classes/Exclude"
 
-spec.source_files = 'TestLib/TestMaster/Classes/**/*'
+spec.source_files = 'TestMaster/TestLib/TestMaster/Classes/**/*'
 
   # spec.public_header_files = "Classes/**/*.h"
 
