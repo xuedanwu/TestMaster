@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description      = <<-DESC
+  spec.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
@@ -91,8 +91,10 @@ TODO: Add long description of the pod here.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*"
-  spec.exclude_files = "Classes/Exclude"
+  # spec.source_files  = "Classes", "Classes/**/*"
+  # spec.exclude_files = "Classes/Exclude"
+
+spec.source_files = 'TestMaster/Classes/**/*'
 
   # spec.public_header_files = "Classes/**/*.h"
 
